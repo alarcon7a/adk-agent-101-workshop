@@ -638,7 +638,7 @@ def mostrar_historial_busquedas() -> dict:
 
 root_agent = Agent(
     name="ecommerce_assistant_pro",
-    model="gemini-2.5-flash",
+    model="gemini-3.5-flash",
     description="Asistente de e-commerce avanzado con búsqueda inteligente, gestión de carrito y recomendaciones personalizadas.",
     instruction=(
         "Eres un asistente de compras profesional y amigable. Tu objetivo es ayudar a los usuarios a:\n"
