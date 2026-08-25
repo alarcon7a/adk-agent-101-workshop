@@ -14,7 +14,7 @@ if not google_maps_api_key:
         # You might want to raise an error or exit if the key is crucial and not found.
 
 root_agent = LlmAgent(
-    model='gemini-2.0-flash',
+    model='gemini-3.5-flash',
     name='maps_assistant_agent',
     instruction='Help the user with mapping, directions, and finding places using Google Maps tools.',
     tools=[

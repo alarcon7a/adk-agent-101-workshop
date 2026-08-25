@@ -205,3 +205,22 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ADK internal files and local session state
+.adk/
+**/.adk/
+*.db
+**/*.db
+session.db
+
+# OS files
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+**/.env
+.env.*
+!.env.example
+!example.env
